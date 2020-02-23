@@ -1,0 +1,62 @@
+baseurl = "https://example.com"
+languageCode = "en"
+title = "BiesBlog"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/dannybies\">Danny van der Biezen</a> 2020"
+disqusShortname = "BiesBlogDisqus"
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Danny van der Biezen" # Author full name
+authorEmail = "danny_bies@live.nl" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "BiesBlog" # Title for home page
+poweredby = false # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+codeCopy = true # Add copy button above code blocks
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+# [params.opengraph.facebook]
+# admins = [] # array of Facebook IDs
+# appID = ""
+# pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "dannybies"
+github = "dannybies"
+email = "danny_bies@live.nl"
+linkedin = "dannyvdbiezen"
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+
+#[params.matomoAnalytics]
+#siteID = 1
+#rootURL = "//matomo.example.com/"
+#
+#[params.fathomAnalytics]
+#rootURL = "//fathom.example.com/"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true

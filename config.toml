@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://dannybies.github.io/"
 languageCode = "en"
 title = "BiesBlog"
 theme = "kiss"
@@ -13,8 +13,8 @@ includeContent = true # Includes whole content in rss
 authorName = "Danny van der Biezen" # Author full name
 authorEmail = "danny_bies@live.nl" # Author email
 
-[params.assets]
-customCSS = ["css/custom.css"]
+#[params.assets]
+#customCSS = ["css/custom.css"]
 
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)

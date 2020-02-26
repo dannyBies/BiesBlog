@@ -2,13 +2,7 @@
 author: "Michael Henderson"
 date: 2014-09-28
 linktitle: Creating a New Theme
-menu:
-  main:
-    parent: tutorials
-next: /tutorials/github-pages-blog
-prev: /tutorials/automated-deployments
 title: Creating a New Theme
-weight: 10
 ---
 
 
@@ -290,7 +284,7 @@ tags = ["tags", "categories"]
 ## the bit that says "YOUR_NAME_HERE"
 ```
 
-Note that the skeleton's template files are empty. Don't worry, we'll be changing that shortly.
+Note that the the skeleton's template files are empty. Don't worry, we'll be changing that shortly.
 
 ```
 $ find themes/zafta -name '*.html' | xargs ls -l

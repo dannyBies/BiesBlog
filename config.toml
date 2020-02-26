@@ -1,62 +1,44 @@
 baseurl = "https://dannybies.github.io/"
-languageCode = "en"
 title = "BiesBlog"
-theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/dannybies\">Danny van der Biezen</a> 2020"
-disqusShortname = "BiesBlogDisqus"
-googleAnalytics = ""
-Paginate = 5 # Number of posts per page
-enableRobotsTXT = true
+#copyright = "&copy; <a href=\"https://github.com/dannybies\">Danny van der Biezen</a> 2020"
+canonifyurls = true
+theme = "hugo-kiera"
 
-[params.rss] # Adding this tag enables RSS feed
-includeContent = true # Includes whole content in rss
-authorName = "Danny van der Biezen" # Author full name
-authorEmail = "danny_bies@live.nl" # Author email
+paginate = 5
 
-#[params.assets]
-#customCSS = ["css/custom.css"]
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
 
-[params.info]
-adsense = "" # Adsense ID (ID only, without ca-pub-)
-enableSocial = false # Adds OpenGraph and Twitter cards
-homeTitle = "BiesBlog" # Title for home page
-poweredby = false # Adds powered by hugo and kiss below Copyright
-related = true # Includes related articles at the bottom of the article
-codeCopy = true # Add copy button above code blocks
+#disqusShortname = "myShortName"
 
-[params.features]
-disqusOnDemand = true  # Load Disqus comments on click
+# Note: to disable a social network icon delete or comment out the corresponding line
+[author]
+    name = "Danny van der Biezen"
+    github = "dannybies"
+    linkedin = "dannyvdbiezen"
+    twitter = "dannybies"
 
-# [params.opengraph.facebook]
-# admins = [] # array of Facebook IDs
-# appID = ""
-# pageID = ""
+[params]
+    tagline = "A blog about all things related to programming"
+    description = "BiesBlog: A blog about all things related to programming"
+    #images = [""] #This is used for opengraph/twitter cards.
+    customCSS = []  #Optional Customised CSS
+    #favicon = ""
+    #utterancesRepo = "https://github.com/MyRepo"
+    #utterancesIssueTerm = "pathname"
+    #homepageLength = 10
 
-[params.opengraph.twitter]
-page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+# uncomment to enable the Tags link on the main toolbar
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 1
 
-[params.social]
-twitter = "dannybies"
-github = "dannybies"
-email = "danny_bies@live.nl"
-linkedin = "dannyvdbiezen"
-facebook = ""
-instagram = ""
-codepen = ""
-rss = "index.xml" # Add this to show RSS button in social.
-
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
-
-#[params.matomoAnalytics]
-#siteID = 1
-#rootURL = "//matomo.example.com/"
-#
-#[params.fathomAnalytics]
-#rootURL = "//fathom.example.com/"
-
-[taxonomies]
-tag ="tags"
-
-[blackfriday]
-hrefTargetBlank = true
+# uncomment to enable the Categories link on the main toolbar
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "/categories"
+#    weight = 1

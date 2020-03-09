@@ -271,7 +271,7 @@ And that's it! We've got everything ready now :D. You can try it out by directly
     "Content": "My content"
 }
 ```
-With some small changes to the styling of the page (which you can in the [sourcecode](https://github.com/dannyBies/BiesBlogBlazor))) this will result in the following view:
+With some small changes to the styling of the page (which you can find in the [sourcecode](https://github.com/dannyBies/BiesBlogBlazor)) this will result in the following view:
 ![create-blazor](/images/blazor-result.png)
 
 ## Conclusion

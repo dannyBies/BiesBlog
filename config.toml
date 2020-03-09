@@ -6,11 +6,12 @@ theme = "hugo-kiera"
 
 paginate = 5
 
+googleAnalytics = "UA-158919498-2"
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
 
-#disqusShortname = "myShortName"
+DisqusShortname = "https-dannybies-github-io"
 
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]
@@ -23,7 +24,7 @@ pygmentsCodeFences = true
     tagline = "A blog about all things related to programming"
     description = "BiesBlog: A blog about all things related to programming"
     #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
+    customCSS = ["css/custom.css"]  #Optional Customised CSS
     #favicon = ""
     #utterancesRepo = "https://github.com/MyRepo"
     #utterancesIssueTerm = "pathname"

@@ -1,0 +1,11 @@
+blockquote::before {
+    content: unset;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.highlight pre {
+    overflow-x: auto;
+}
